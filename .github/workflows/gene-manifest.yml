@@ -1,6 +1,9 @@
 name: Gene TabHub Cards
 
-on: [push]
+on:
+  push:
+  schedule:
+    - cron:  '1 0 * * 1'
 
 jobs:
   gene-manifest-file:
