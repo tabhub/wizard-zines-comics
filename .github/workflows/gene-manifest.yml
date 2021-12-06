@@ -9,6 +9,11 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+    - name: Get all comics
+      run: |
+        pip3 install bs4
+        mkdir -p images
+        python3 ./get_comics.py
     - name: TabHub Card Action
       uses: tabhub/tabhub-card-action@master
     - name: Git commit
