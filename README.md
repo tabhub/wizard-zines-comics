@@ -8,6 +8,7 @@
 You can copy one of link addresses below as a resource url to add in your [TabHub](https://tabhub.io) settings:
 
 
+ - [wizard-zines-comics](https://raw.githubusercontent.com/tabhub/wizard-zines-comics/main/manifest.json)
 
 ---
 
